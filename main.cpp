@@ -14,9 +14,9 @@ int main() {
 
     while(1) {
         Sleep(1000 * 60 * 30); // 30 minutes
-        PlaySound(TEXT("4.wav"), NULL, SND_FILENAME | SND_ASYNC);
+        PlaySound(TEXT("standNotification.wav"), NULL, SND_FILENAME | SND_ASYNC);
         Sleep(1000 * 60 * 2); // 2 minutes
-        PlaySound(TEXT("2.wav"), NULL, SND_FILENAME | SND_ASYNC);
+        PlaySound(TEXT("endNotification.wav"), NULL, SND_FILENAME | SND_ASYNC);
     }
 
 }
